@@ -4,6 +4,12 @@ TinyBasic Plus ClassBot Edition
 
 A modified version of BlueLlama's TinyBasicPlus with additional commands control a small 3D printed drawing robot.  
 
+Requires these Arduino Libraries:
+- https://github.com/greiman/RamDisk
+- https://github.com/JChristensen/extEEPROM
+- http://www.airspayce.com/mikem/arduino/AccelStepper/
+
+
 TinyBasic Plus
 ==============
 
