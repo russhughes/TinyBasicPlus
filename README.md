@@ -1,3 +1,9 @@
+
+TinyBasic Plus ClassBot Edition
+===============================
+
+A modified version of BlueLlama's TinyBasicPlus with additional commands control a small 3D printed drawing robot.  
+
 TinyBasic Plus
 ==============
 
