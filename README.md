@@ -5,7 +5,7 @@ TinyBasic Plus ClassBot Edition
 A modified version of BlueLlama's TinyBasicPlus with additional commands control a small 3D printed drawing robot.  
 It uses a custom Arduino Shield to drive a pair of 28BYJ-48 stepper motors using two ULN2003 driver IC's.  The shield 
 also has room for a SPI Serial Ram Chip and a I2C Serial EEPROM.  This version of TinyBasicPlus is configured to use
-the first half of a 1MBit Serial EEPROM as virtual disk for saving and loading programs and the second half to store a 
+the first half of a 1MBit Serial EEPROM as a virtual disk for saving and loading programs and the second half to store a 
 collection of 11 [Hershey vector fonts](https://en.wikipedia.org/wiki/Hershey_fonts).
 
 Requires these Arduino Libraries:
