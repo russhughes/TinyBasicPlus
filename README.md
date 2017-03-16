@@ -80,6 +80,39 @@ NOTE: "PINMODE" command removed as of version 0.11
 
 NOTE: TONE commands are by default disabled
 
+## External EEPROM File IO
+- DEL -  removes a file from the external EEPROM
+- FILES - lists the files on the external EEPROM
+- LOAD filename.bas - loads a file from the external EEPROM
+- CHAIN filename.bas - equivalent of: new, load filename.bas, run
+- SAVE filename.bas - saves the current program to the external EEPROM
+
+## ROBOT SPECIFIC COMMANDS
+- FWD n : move forward n mm's, negative values move backward
+- BACK n : move backward n mm's, negative values move forward
+- LEFT n : turn n degrees to the left, negative values move right
+- RIGHT n : turn n degrees to the right, negative values move left
+- PENUP : raise pen
+- PENDOWN : lower pen
+- MOVE x, y : Moves in a straight line to a point x, y
+- RMOVE x, y : Moves in a straight line to a point x, y units away 
+- DRAW x, y : Moves in a straight line point x, y drawing as it goes regardless of the current pen status
+- RDRAW x, y : Moves in a straight line  x, y units away drawing as it goes regardless of the current pen status
+- SETXY x, y : Sets the current location to x,y without moving 
+- DIR n : Turns to face the heading n in degree's
+- FACE x, y : Turn to face the point x,y.
+- CIRCLE n : Draws a circle of the given radius, centered on the current location.
+- ELLIPSE xradius, yradius: Draws an ellipse of the given Xradius and Yradius, centered on the current location.
+- WRITE expression : Writes the value of the expression starting at the current location  
+- DONE Turns off motors, lifts pen and resets location to 0,0 with heading 0
+- SCALE x Sets the scale (size) of the WRITE command.
+- USE n: Use font n when WRITEing.
+
+## ROBOT SPECIFIC FUNCTIONS:
+- XLOC(): returns the current location on the x axis
+- YLOC(): returns the current location on the y axis
+- HEAD(): returns the current heading 
+- PEN(): returns the up/down status of the pen
 
 # Example programs
 
