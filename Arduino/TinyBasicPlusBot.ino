@@ -187,7 +187,7 @@ M23LCV512 ram;
 #endif
 
 #if defined(USE_EEPROM_FOR_DISK) || defined(EEEPROM_FONTS)
-#include <M24FC1026.h>
+#include "M24FC1026.h"
 M24FC1026 ram;
 #endif
 
