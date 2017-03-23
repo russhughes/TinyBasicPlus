@@ -1,6 +1,6 @@
 
 #include <extEEPROM.h>
-#include <M24FC1026.h>
+#include "M24FC1026.h"
 
  bool M24FC1026::begin() {
 	eep = new extEEPROM(kbits_1024, 1, 256, CHIP_ADDRESS);
