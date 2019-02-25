@@ -1,3 +1,4 @@
+![](https://github.com/russhughes/TinyBasicPlus/blob/master/images/hello.jpg)
 
 TinyBasic Plus ClassBot Edition
 ===============================
